@@ -9,6 +9,8 @@ module.exports = function() {
     router.delete('/deletepromotion/:id', controller.deletepromotion);
     router.get('/getpromotion/:id', controller.getpromotion);
     router.post('/updatepromotion/:id', controller.updatepromotion);
+    router.get('/pdfpromotion/:id', controller.pdfpromotion);
 
+    
     return router;
 }
